@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style5.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="gallery-container">
+        <div class="filter-buttons">
+            <button data-filter="all">All</button>
+            <button data-filter="nature">Nature</button>
+            <button data-filter="animals">Animals</button>
+            <button data-filter="architecture">Architecture</button>
+        </div>
+        <div class="image-gallery">
+            <!-- Images will be dynamically loaded here -->
+        </div>
+    </div>
+    <div class="lightbox" id="lightbox">
+        <span class="close-btn" onclick="closeLightbox()">&times;</span>
+        <img class="lightbox-content" id="lightbox-image">
+    </div>
+    <script src="script5.js"></script>
+</body>
+</html>
